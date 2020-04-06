@@ -22,7 +22,7 @@ public final class DecoratingMessageProcessor implements IMessageProcessor {
    * Instantiates a new message processor.
    *
    * @param origin the origin processor, cannot be {@code null}.
-   * @param caseNo the case number/
+   * @param caseNo the case number
    */
   public DecoratingMessageProcessor(IMessageProcessor origin, int caseNo) {
     if (origin == null) {

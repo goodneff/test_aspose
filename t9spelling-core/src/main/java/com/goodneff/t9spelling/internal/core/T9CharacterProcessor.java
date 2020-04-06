@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * The {@link ICharacterProcessor} implementation that process supported character into T9 command
  * sequence.
  *
- * <p>In fact, the single processor instance provide the functionality that is opposite to the
+ * <p>In fact, the single processor instance provides the functionality that is opposite to the
  * button on a telephone keypad. Other words, it tells how many times the digit should be pressed to
  * get the desired character.
  *
