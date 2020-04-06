@@ -1,0 +1,21 @@
+# Eclipse
+.settings
+.project
+.classpath
+src/bin
+
+# IntelliJ
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Git
+*.*.orig
+
+### Maven ###
+target/
+
+# MacOS-specific 
+.DS_Store
